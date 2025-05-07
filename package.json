@@ -1,0 +1,14 @@
+{
+  "name": "duckgen-test",
+  "version": "1.1.0",
+  "description": "DuckGen FFmpeg pipeline test — MP4 background, PNG traits, MOV/WebM overlay.",
+  "main": "run.js",
+  "scripts": {
+    "render": "node run.js"
+  },
+  "author": "What The Duck",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  }
+}
