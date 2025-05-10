@@ -1,0 +1,80 @@
+DuckGen Trait Summary — 2025-05-10T07:52:59.113Z
+
+🧾 Total NFTs: 2000
+🥚 Golden Eggs: 5
+
+🧱 Layer Usage:
+  Background: 2000 (100.00%)
+  T-Shirt: 2000 (100.00%)
+  Body: 2000 (100.00%)
+  Sunglasses: 1623 (81.15%)
+  Scars & Wounds: 496 (24.80%)
+  Footwear: 1392 (69.60%)
+  Tattoo: 291 (14.55%)
+  Accessories: 1132 (56.60%)
+  Weather: 801 (40.05%)
+
+🎨 Trait Frequencies by Layer:
+
+  [Background]
+    chapter1: 621 (31.05%)
+    chapter2: 512 (25.60%)
+    chapter3: 387 (19.35%)
+    chapter4: 295 (14.75%)
+    chapter5: 185 (9.25%)
+
+  [T-Shirt]
+    torn: 575 (28.75%)
+    fishnet: 461 (23.05%)
+    eyeball: 353 (17.65%)
+    xrp ironman: 248 (12.40%)
+    ducky oversized tie: 200 (10.00%)
+    wtd joke: 163 (8.15%)
+
+  [Body]
+    hands in pocket: 713 (35.65%)
+    flip off: 509 (25.45%)
+    fist: 400 (20.00%)
+    peace: 224 (11.20%)
+    gun: 154 (7.70%)
+
+  [Sunglasses]
+    cracked: 497 (24.85%)
+    steampunk: 333 (16.65%)
+    nerdy: 285 (14.25%)
+    futuristic: 210 (10.50%)
+    oversized: 174 (8.70%)
+    mirrored: 124 (6.20%)
+
+  [Scars & Wounds]
+    cat scratch: 177 (8.85%)
+    beak stitch: 122 (6.10%)
+    bruise: 96 (4.80%)
+    beak crack: 57 (2.85%)
+    long scar: 44 (2.20%)
+
+  [Footwear]
+    converse: 473 (23.65%)
+    combat boots: 358 (17.90%)
+    futuristic: 289 (14.45%)
+    ducky clown shoes: 169 (8.45%)
+    royal mafia shoes: 103 (5.15%)
+
+  [Tattoo]
+    x: 150 (7.50%)
+    phoenix: 98 (4.90%)
+    uga: 43 (2.15%)
+
+  [Accessories]
+    nose ring: 330 (16.50%)
+    chain: 249 (12.45%)
+    horns: 207 (10.35%)
+    halo: 131 (6.55%)
+    joint: 111 (5.55%)
+    crown: 104 (5.20%)
+
+  [Weather]
+    fog: 329 (16.45%)
+    rain: 231 (11.55%)
+    frost: 166 (8.30%)
+    fire: 75 (3.75%)

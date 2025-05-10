@@ -1,0 +1,21 @@
+{
+  "collectionName": "What The Duck",
+  "description": "An NFT rebellion of outcast ducks — grayscale grit meets cartoon chaos.",
+  "outputFormat": "mp4",
+  "nftsToGenerate": 2000,
+  "aspectRatio": "1:1",
+  "canvasSize": "1080x1080",
+  "filePrefix": "duck",
+  "startIndex": 1,
+  "creator": "Your Brand or Alias",
+  "externalLink": "https://what-the-duck.xyz",
+  "license": "CC0",
+  "metadataStandard": "XLS-20",
+  "includeGoldenEggs": true,
+  "goldenEggsToInject": 5,
+  "minTraits": 3,
+  "maxTraits": 8,
+  "maxRetries": 10000,
+  "rules": [],
+  "specialTokens": []
+}
