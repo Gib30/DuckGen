@@ -12,15 +12,15 @@ const log = (msg) => console.log(chalk.cyan(`[DuckGen] `) + msg);
 const error = (msg) => console.error(chalk.red(`❌ Error: ${msg}`));
 const success = (msg) => console.log(chalk.green(`✅ ${msg}`));
 
-const menu = `
-${chalk.bold("DuckGen CLI")}
+const menu = chalk.bold(`
+DuckGen CLI
 ------------------------------
 [1] Run Trait Mixer
 [2] Render NFTs
 [3] Run Tests
 [4] View Last Render Log
 [5] Exit
-`;
+`);
 
 function runCommand(cmd, label) {
   try {

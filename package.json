@@ -11,12 +11,12 @@
   "author": "What The Duck",
   "license": "MIT",
   "dependencies": {
-    "shelljs": "^0.8.5",
-    "chalk": "^5.3.0"
+    "chalk": "^4.1.2",
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
-    "mocha": "^10.0.0",
-    "chai": "^4.3.0"
+    "chai": "^4.3.0",
+    "mocha": "^10.0.0"
   },
   "engines": {
     "node": ">=16.0.0"
