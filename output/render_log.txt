@@ -1,0 +1,20 @@
+🎛 Duck#1 Filter Graph:
+[0:v] setpts=PTS-STARTPTS, scale=1080:1080, fps=24 [t0]; [1:v] setpts=PTS-STARTPTS, scale=1080:1080 [t1]; [t0][t1] overlay=format=auto [tmp1]; [2:v] setpts=PTS-STARTPTS, scale=1080:1080 [t2]; [tmp1][t2] overlay=format=auto [tmp2]; [3:v] setpts=PTS-STARTPTS, scale=1080:1080 [t3]; [tmp2][t3] overlay=format=auto [tmp3]; [4:v] setpts=PTS-STARTPTS, scale=1080:1080 [t4]; [tmp3][t4] overlay=format=auto [tmp4]; [tmp4] copy [outv]
+✅ Thumbnail generated: Duck#1.png
+✅ Duck#1.mp4 rendered successfully
+🎛 Duck#2 Filter Graph:
+[0:v] setpts=PTS-STARTPTS, scale=1080:1080, fps=24 [t0]; [1:v] setpts=PTS-STARTPTS, scale=1080:1080 [t1]; [t0][t1] overlay=format=auto [tmp1]; [2:v] setpts=PTS-STARTPTS, scale=1080:1080 [t2]; [tmp1][t2] overlay=format=auto [tmp2]; [3:v] setpts=PTS-STARTPTS, scale=1080:1080 [t3]; [tmp2][t3] overlay=format=auto [tmp3]; [4:v] setpts=PTS-STARTPTS, scale=1080:1080 [t4]; [tmp3][t4] overlay=format=auto [tmp4]; [5:v] setpts=PTS-STARTPTS, scale=1080:1080 [t5]; [tmp4][t5] overlay=format=auto [tmp5]; [6:v] setpts=PTS-STARTPTS, scale=1080:1080, fps=24 [t6]; [tmp5][t6] overlay=format=auto:alpha=straight [tmp6]; [tmp6] copy [outv]
+✅ Thumbnail generated: Duck#2.png
+✅ Duck#2.mp4 rendered successfully
+🎛 Duck#3 Filter Graph:
+[0:v] setpts=PTS-STARTPTS, scale=1080:1080, fps=24 [t0]; [1:v] setpts=PTS-STARTPTS, scale=1080:1080 [t1]; [t0][t1] overlay=format=auto [tmp1]; [2:v] setpts=PTS-STARTPTS, scale=1080:1080 [t2]; [tmp1][t2] overlay=format=auto [tmp2]; [3:v] setpts=PTS-STARTPTS, scale=1080:1080 [t3]; [tmp2][t3] overlay=format=auto [tmp3]; [4:v] setpts=PTS-STARTPTS, scale=1080:1080 [t4]; [tmp3][t4] overlay=format=auto [tmp4]; [5:v] setpts=PTS-STARTPTS, scale=1080:1080, fps=24 [t5]; [tmp4][t5] overlay=format=auto:alpha=straight [tmp5]; [tmp5] copy [outv]
+✅ Thumbnail generated: Duck#3.png
+✅ Duck#3.mp4 rendered successfully
+🎛 Duck#4 Filter Graph:
+[0:v] setpts=PTS-STARTPTS, scale=1080:1080, fps=24 [t0]; [1:v] setpts=PTS-STARTPTS, scale=1080:1080 [t1]; [t0][t1] overlay=format=auto [tmp1]; [2:v] setpts=PTS-STARTPTS, scale=1080:1080 [t2]; [tmp1][t2] overlay=format=auto [tmp2]; [3:v] setpts=PTS-STARTPTS, scale=1080:1080 [t3]; [tmp2][t3] overlay=format=auto [tmp3]; [4:v] setpts=PTS-STARTPTS, scale=1080:1080 [t4]; [tmp3][t4] overlay=format=auto [tmp4]; [5:v] setpts=PTS-STARTPTS, scale=1080:1080, fps=24 [t5]; [tmp4][t5] overlay=format=auto:alpha=straight [tmp5]; [tmp5] copy [outv]
+✅ Thumbnail generated: Duck#4.png
+✅ Duck#4.mp4 rendered successfully
+🎛 Duck#5 Filter Graph:
+[0:v] setpts=PTS-STARTPTS, scale=1080:1080, fps=24 [t0]; [1:v] setpts=PTS-STARTPTS, scale=1080:1080 [t1]; [t0][t1] overlay=format=auto [tmp1]; [2:v] setpts=PTS-STARTPTS, scale=1080:1080 [t2]; [tmp1][t2] overlay=format=auto [tmp2]; [3:v] setpts=PTS-STARTPTS, scale=1080:1080 [t3]; [tmp2][t3] overlay=format=auto [tmp3]; [4:v] setpts=PTS-STARTPTS, scale=1080:1080 [t4]; [tmp3][t4] overlay=format=auto [tmp4]; [5:v] setpts=PTS-STARTPTS, scale=1080:1080 [t5]; [tmp4][t5] overlay=format=auto [tmp5]; [6:v] setpts=PTS-STARTPTS, scale=1080:1080, fps=24 [t6]; [tmp5][t6] overlay=format=auto:alpha=straight [tmp6]; [tmp6] copy [outv]
+✅ Thumbnail generated: Duck#5.png
+✅ Duck#5.mp4 rendered successfully

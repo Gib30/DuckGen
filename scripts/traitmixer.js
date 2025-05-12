@@ -19,6 +19,20 @@ const maxRetries = collection.maxRetries || 10000;
 const generatedDNA = new Set();
 const traitList = [];
 
+// Validate golden egg asset
+const GOLDEN_EGG_PATH = path.join(__dirname, "../traits/Special/Golden Egg.png");
+if (!fs.existsSync(GOLDEN_EGG_PATH)) {
+  console.warn("⚠️ Golden Egg asset missing at:", GOLDEN_EGG_PATH);
+}
+
+// Validate layer weights
+for (const layer of layers) {
+  const sum = layer.traits.reduce((a, b) => a + b.weight, 0);
+  if (sum !== 100) {
+    console.warn(`⚠️ Trait weights in layer '${layer.name}' sum to ${sum}, not 100`);
+  }
+}
+
 // Secure random integer
 function randomInt(max) {
   return crypto.randomInt(0, max);
@@ -46,11 +60,18 @@ function generateDNA(traits) {
 // NFT builder
 function buildNFT(id) {
   const selectedTraits = [];
-  for (const layer of layers.sort((a, b) => a.order - b.order)) {
+  const orderedLayers = [...layers.sort((a, b) => a.order - b.order), { name: "Special" }];
+
+  for (const layer of orderedLayers) {
     const shouldInclude = layer.required || randomInt(100) < layer.rarity;
     if (!shouldInclude) continue;
 
     const validTraits = layer.traits.filter(t => t.weight > 0);
+    if (layer.required && validTraits.length === 0) {
+      console.error(`❌ Required layer '${layer.name}' has no valid traits`);
+      return null;
+    }
+
     if (validTraits.length === 0) continue;
 
     const traitName = pickWeightedTrait(validTraits);
@@ -60,25 +81,30 @@ function buildNFT(id) {
       value: traitName
     });
   }
+
   return selectedTraits;
 }
 
-// Main generation loop
+// Main loop
 let attempts = 0;
 while (traitList.length < totalNFTs) {
   if (attempts++ > maxRetries) {
-    console.error("❌ Max retries reached — possibly too many constraints or not enough trait combinations.");
+    console.error("❌ Max retries reached — too many constraints?");
     break;
   }
 
   const id = startIndex + traitList.length;
   const traits = buildNFT(id);
+  if (!traits) continue;
 
-  const traitCount = traits.length;
-  if (traitCount < minTraits || traitCount > maxTraits) continue;
+  const count = traits.length;
+  if (count < minTraits || count > maxTraits) continue;
 
   const dna = generateDNA(traits);
-  if (generatedDNA.has(dna)) continue;
+  if (generatedDNA.has(dna)) {
+    console.log(`🔁 Duplicate DNA, skipping NFT ${id}`);
+    continue;
+  }
 
   generatedDNA.add(dna);
   traitList.push({
@@ -87,6 +113,10 @@ while (traitList.length < totalNFTs) {
     traits,
     goldenEgg: false
   });
+
+  if (traitList.length % 100 === 0) {
+    console.log(`✅ Generated ${traitList.length}/${totalNFTs}`);
+  }
 }
 
 // Inject golden eggs
@@ -97,10 +127,15 @@ if (collection.includeGoldenEggs && goldenEggCount > 0) {
   }
   for (const i of indices) {
     traitList[i].goldenEgg = true;
+    traitList[i].traits.push({
+      layer: "Special",
+      value: "Golden Egg",
+      path: GOLDEN_EGG_PATH
+    });
   }
 }
 
-// Write trait list
+// Write result
 if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
 fs.writeFileSync(path.join(outputPath, "traitList.json"), JSON.stringify(traitList, null, 2));
 
