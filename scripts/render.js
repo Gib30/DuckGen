@@ -108,7 +108,7 @@ function renderNFT(nft, attempt = 1) {
     -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an "${outputPath}"
   `;
 
-  const result = shell.exec(command, { silent: false });
+  const result = shell.exec(command, { silent: true });
 
   if (result.code !== 0) {
     if (attempt < 3) {
