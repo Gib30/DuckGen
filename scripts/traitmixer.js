@@ -109,7 +109,7 @@ while (traitList.length < totalNFTs) {
   generatedDNA.add(dna);
   traitList.push({
     id,
-    filename: `${filePrefix}#${id}`,
+    filename: `${filePrefix} #${id}`,
     traits,
     goldenEgg: false
   });

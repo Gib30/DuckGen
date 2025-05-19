@@ -26,9 +26,9 @@
     "traits": [
       { "name": "Pocket Hands", "weight": 35 },
       { "name": "Duck You", "weight": 25 },
-      { "name": "Fighter Fists", "weight": 20 },
-      { "name": "Peace Ducker", "weight": 12 },
-      { "name": "Duck Magnum", "weight": 8 }
+      { "name": "Fighter Fists", "weight": 21 },
+      { "name": "Peace Ducker", "weight": 14 },
+      { "name": "Duck Magnum", "weight": 5 }
     ]
   },
   {
@@ -40,12 +40,12 @@
     "assetType": "png",
     "traitType": "Shirt",
     "traits": [
-      { "name": "Torn", "weight": 30 },
-      { "name": "Conspiracy", "weight": 22 },
-      { "name": "Futuristic", "weight": 18 },
-      { "name": "Kinky", "weight": 12 },
-      { "name": "Ducky", "weight": 10 },
-      { "name": "WTD", "weight": 8 }
+      { "name": "Torn", "weight": 31 },
+      { "name": "Conspiracy", "weight": 23 },
+      { "name": "Futuristic", "weight": 19 },
+      { "name": "Kinky", "weight": 13 },
+      { "name": "Ducky", "weight": 11 },
+      { "name": "WTD", "weight": 3 }
     ]
   },
   {
@@ -57,11 +57,11 @@
     "assetType": "png",
     "traitType": "Boot",
     "traits": [
-      { "name": "Converse", "weight": 35 },
-      { "name": "Combat Boots", "weight": 25 },
-      { "name": "Futuristic", "weight": 20 },
-      { "name": "Ducky", "weight": 12 },
-      { "name": "Royal Mafia", "weight": 8 }
+      { "name": "Converse", "weight": 36 },
+      { "name": "Combat Boots", "weight": 26 },
+      { "name": "Futuristic", "weight": 21 },
+      { "name": "Ducky", "weight": 13 },
+      { "name": "Royal Mafia", "weight": 4 }
     ]
   },
   {
@@ -73,12 +73,12 @@
     "assetType": "png",
     "traitType": "Accessory",
     "traits": [
-      { "name": "Nose Ring", "weight": 30 },
+      { "name": "Nose Ring", "weight": 31 },
       { "name": "Swag Chain", "weight": 22 },
       { "name": "Devil Horns", "weight": 18 },
-      { "name": "Broken Halo", "weight": 12 },
-      { "name": "Lit Joint", "weight": 10 },
-      { "name": "Battle Crown", "weight": 8 }
+      { "name": "Broken Halo", "weight": 14 },
+      { "name": "Lit Joint", "weight": 11 },
+      { "name": "Battle Crown", "weight": 4 }
     ]
   },
   {
@@ -90,11 +90,11 @@
     "assetType": "png",
     "traitType": "Scar",
     "traits": [
-      { "name": "Cat Scratch", "weight": 35 },
-      { "name": "Lip Stitch", "weight": 25 },
-      { "name": "Bruise", "weight": 20 },
-      { "name": "Beak Crack", "weight": 12 },
-      { "name": "Scar Face", "weight": 8 }
+      { "name": "Cat Scratch", "weight": 37 },
+      { "name": "Lip Stitch", "weight": 26 },
+      { "name": "Bruise", "weight": 21 },
+      { "name": "Beak Crack", "weight": 13 },
+      { "name": "Scar Face", "weight": 3 }
     ]
   },
   {
@@ -106,12 +106,12 @@
     "assetType": "png",
     "traitType": "Sunglass",
     "traits": [
-      { "name": "Cracked", "weight": 30 },
-      { "name": "Steampunk", "weight": 22 },
+      { "name": "Cracked", "weight": 31 },
+      { "name": "Steampunk", "weight": 23 },
       { "name": "Nerdy", "weight": 18 },
       { "name": "Futuristic HUD", "weight": 12 },
-      { "name": "Oversized", "weight": 10 },
-      { "name": "Mirrored", "weight": 8 }
+      { "name": "Oversized", "weight": 11 },
+      { "name": "Mirrored", "weight": 5 }
     ]
   },
   {

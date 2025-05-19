@@ -1,4 +1,4 @@
-DuckGen Trait Summary — 2025-05-13T13:06:01.283Z
+DuckGen Trait Summary — 2025-05-18T08:20:35.513Z
 
 🧾 Total NFTs: 2000
 🥚 Golden Eggs: 5
@@ -7,78 +7,78 @@ DuckGen Trait Summary — 2025-05-13T13:06:01.283Z
   Background: 2000 (100.00%)
   Body: 2000 (100.00%)
   Shirt: 2000 (100.00%)
-  Boot: 1394 (69.70%)
-  Accessory: 1096 (54.80%)
-  Scar: 507 (25.35%)
-  Sunglass: 1600 (80.00%)
-  Tattoo: 317 (15.85%)
-  FX: 807 (40.35%)
+  Boot: 1413 (70.65%)
+  Accessory: 1078 (53.90%)
+  Scar: 513 (25.65%)
+  Sunglass: 1614 (80.70%)
+  Tattoo: 306 (15.30%)
+  FX: 829 (41.45%)
   Special: 5 (0.25%)
 
 🎨 Trait Frequencies by Layer:
 
   [Background]
-    Chapter1: 569 (28.45%) 
-    Chapter2: 516 (25.80%) 
-    Chapter3: 429 (21.45%) 
-    Chapter4: 305 (15.25%) 
-    Chapter5: 181 (9.05%) 
+    Chapter1: 620 (31.00%) 
+    Chapter2: 463 (23.15%) 
+    Chapter3: 410 (20.50%) 
+    Chapter4: 296 (14.80%) 
+    Chapter5: 211 (10.55%) 
 
   [Body]
-    Pocket Hands: 692 (34.60%) 
-    Duck You: 528 (26.40%) 
-    Fighter Fists: 413 (20.65%) 
-    Peace Ducker: 210 (10.50%) 
-    Duck Magnum: 157 (7.85%) 
+    Pocket Hands: 694 (34.70%) 
+    Duck You: 486 (24.30%) 
+    Fighter Fists: 424 (21.20%) 
+    Peace Ducker: 297 (14.85%) 
+    Duck Magnum: 99 (4.95%) 
 
   [Shirt]
-    Torn: 565 (28.25%) 
-    Conspiracy: 453 (22.65%) 
-    Futuristic: 374 (18.70%) 
-    Kinky: 247 (12.35%) 
-    Ducky: 209 (10.45%) 
-    WTD: 152 (7.60%) 
+    Torn: 629 (31.45%) 
+    Conspiracy: 430 (21.50%) 
+    Futuristic: 379 (18.95%) 
+    Kinky: 290 (14.50%) 
+    Ducky: 204 (10.20%) 
+    WTD: 68 (3.40%) 
 
   [Boot]
-    Converse: 467 (33.50%) 
-    Combat Boots: 398 (28.55%) 
-    Futuristic: 266 (19.08%) 
-    Ducky: 158 (11.33%) 
-    Royal Mafia: 105 (7.53%) 
+    Converse: 525 (37.15%) 
+    Combat Boots: 358 (25.34%) 
+    Futuristic: 277 (19.60%) 
+    Ducky: 191 (13.52%) 
+    Royal Mafia: 62 (4.39%) 
 
   [Accessory]
-    Nose Ring: 343 (31.30%) 
-    Swag Chain: 253 (23.08%) 
-    Devil Horns: 175 (15.97%) 
-    Broken Halo: 134 (12.23%) 
-    Lit Joint: 98 (8.94%) 
-    Battle Crown: 93 (8.49%) 
+    Nose Ring: 360 (33.40%) 
+    Swag Chain: 239 (22.17%) 
+    Devil Horns: 191 (17.72%) 
+    Broken Halo: 141 (13.08%) 
+    Lit Joint: 106 (9.83%) 
+    Battle Crown: 41 (3.80%) 
 
   [Scar]
-    Cat Scratch: 179 (35.31%) 
-    Lip Stitch: 107 (21.10%) 
-    Bruise: 110 (21.70%) 
-    Beak Crack: 65 (12.82%) 
-    Scar Face: 46 (9.07%) 
+    Cat Scratch: 183 (35.67%) 
+    Lip Stitch: 162 (31.58%) 
+    Bruise: 89 (17.35%) 
+    Beak Crack: 58 (11.31%) 
+    Scar Face: 21 (4.09%) 
 
   [Sunglass]
-    Cracked: 480 (30.00%) 
-    Steampunk: 335 (20.94%) 
-    Nerdy: 308 (19.25%) 
-    Futuristic HUD: 196 (12.25%) 
-    Oversized: 164 (10.25%) 
-    Mirrored: 117 (7.31%) 
+    Cracked: 477 (29.55%) 
+    Steampunk: 379 (23.48%) 
+    Nerdy: 293 (18.15%) 
+    Futuristic HUD: 187 (11.59%) 
+    Oversized: 184 (11.40%) 
+    Mirrored: 94 (5.82%) 
 
   [Tattoo]
-    XPrisoners: 157 (49.53%) 
-    FPT: 103 (32.49%) 
-    UGA: 57 (17.98%) 
+    XPrisoners: 168 (54.90%) 
+    FPT: 91 (29.74%) 
+    UGA: 47 (15.36%) 
 
   [FX]
-    Fog: 306 (37.92%) 
-    Rain: 253 (31.35%) 
-    Frost: 170 (21.07%) 
-    Fire: 78 (9.67%) 
+    Fog: 345 (41.62%) 
+    Rain: 232 (27.99%) 
+    Frost: 179 (21.59%) 
+    Fire: 73 (8.81%) 
 
   [Special]
     ❌ Unknown Trait: Golden Egg — in data but not in config

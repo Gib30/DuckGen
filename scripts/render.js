@@ -100,12 +100,13 @@ function renderNFT(nft, attempt = 1) {
   const filterGraph = filters.join("; ");
   logStream.write(`🎛 ${nft.filename} Filter Graph:\n${filterGraph}\n`);
 
+  // === High Quality Video Encoding ===
   const command = `
     ffmpeg -y ${inputs.join(" ")} \
     -filter_complex "${filterGraph}" \
     -map [outv] \
     -vsync 0 -r 24 -frames:v 120 \
-    -c:v libx264 -pix_fmt yuv420p -movflags +faststart -an "${outputPath}"
+    -c:v libx264 -crf 18 -preset slow -pix_fmt yuv420p -movflags +faststart -an "${outputPath}"
   `;
 
   const result = shell.exec(command, { silent: true });
@@ -120,8 +121,8 @@ function renderNFT(nft, attempt = 1) {
     }
   }
 
-  // Thumbnail
-  const thumbCmd = `ffmpeg -y -i "${outputPath}" -vf "thumbnail,scale=320:320" -frames:v 1 "${thumbnailPath}"`;
+  // === High Quality Thumbnail at 2s into video ===
+  const thumbCmd = `ffmpeg -y -ss 2 -i "${outputPath}" -vf "scale=1080:1080" -frames:v 1 -q:v 2 "${thumbnailPath}"`;
   const thumbResult = shell.exec(thumbCmd, { silent: true });
 
   if (thumbResult.code === 0) {
